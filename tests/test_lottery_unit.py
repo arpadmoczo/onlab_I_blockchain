@@ -1,3 +1,5 @@
+#Based on a FreeCodeCamp video. Source: https://www.youtube.com/watch?v=M576WGiDBdQ&ab_channel=freeCodeCamp.org
+
 from scripts.helpful_scripts import (
     LOCAL_BLOCKCHAIN_ENVIRONMENTS,
     get_account,
