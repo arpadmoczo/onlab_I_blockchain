@@ -1,3 +1,5 @@
+//Based on a FreeCodeCamp video. Source: https://www.youtube.com/watch?v=M576WGiDBdQ&ab_channel=freeCodeCamp.org
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.6;
 
