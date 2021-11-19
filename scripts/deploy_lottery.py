@@ -1,3 +1,5 @@
+#Based on a FreeCodeCamp video. Source: https://www.youtube.com/watch?v=M576WGiDBdQ&ab_channel=freeCodeCamp.org
+
 from scripts.helpful_scripts import get_account, get_contract, fund_with_link
 from brownie import Lottery, network, config
 import time
