@@ -14,7 +14,7 @@ def index():
 
     return render_template('index.html') 
 
-@app.route('/admin')
+@app.route('/admin', methods=['POST', 'GET'])
 def admin_start():
     if request.method == 'POST':
         #deploy_lottery()
@@ -23,7 +23,7 @@ def admin_start():
 
     return render_template('admin.html')
 
-@app.route('/admin')
+@app.route('/admin', methods=['POST', 'GET'])
 def admin_end():
     if request.method == 'POST':
         #deploy_lottery()
